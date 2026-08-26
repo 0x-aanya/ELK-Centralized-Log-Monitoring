@@ -1,0 +1,7 @@
+Aug 25 10:01:12 ubuntu sshd[1201]: Failed password for invalid user admin from 192.168.1.105 port 4421 ssh2
+Aug 25 10:01:15 ubuntu sshd[1202]: Failed password for invalid user admin from 192.168.1.105 port 4422 ssh2
+Aug 25 10:01:18 ubuntu sshd[1203]: Failed password for invalid user admin from 192.168.1.105 port 4423 ssh2
+Aug 25 10:01:25 ubuntu sshd[1204]: Accepted password for user from 192.168.1.105 port 4424 ssh2
+Aug 25 10:05:32 ubuntu sshd[1210]: Failed password for user test from 10.0.0.25 port 5012 ssh2
+Aug 25 10:06:41 ubuntu sshd[1211]: Accepted password for user test from 10.0.0.25 port 5013 ssh2
+Aug 25 10:10:12 ubuntu systemd[1]: File integrity check detected modification in /etc/passwd

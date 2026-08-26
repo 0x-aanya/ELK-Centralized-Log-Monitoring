@@ -1,0 +1,6 @@
+2026-08-25T10:12:01Z Host=WIN-ENDPOINT EventID=4625 Account=Administrator SourceIP=192.168.1.105 Status=Failed
+2026-08-25T10:12:04Z Host=WIN-ENDPOINT EventID=4625 Account=Administrator SourceIP=192.168.1.105 Status=Failed
+2026-08-25T10:12:07Z Host=WIN-ENDPOINT EventID=4625 Account=Administrator SourceIP=192.168.1.105 Status=Failed
+2026-08-25T10:12:15Z Host=WIN-ENDPOINT EventID=4624 Account=Administrator SourceIP=192.168.1.105 Status=Success
+2026-08-25T10:20:31Z Host=WIN-ENDPOINT EventID=4625 Account=test SourceIP=10.0.0.25 Status=Failed
+2026-08-25T10:20:45Z Host=WIN-ENDPOINT EventID=4624 Account=test SourceIP=10.0.0.25 Status=Success

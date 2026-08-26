@@ -1,0 +1,7 @@
+winlogbeat.event_logs:
+  - name: Security
+  - name: System
+  - name: Application
+
+output.logstash:
+  hosts: ["ELK_SERVER_IP:5044"]

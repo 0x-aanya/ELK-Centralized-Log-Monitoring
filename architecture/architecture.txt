@@ -1,0 +1,44 @@
+CENTRALIZED LOG MONITORING AND THREAT DETECTION SYSTEM
+
+                    CENTRALIZED SOC ARCHITECTURE
+
+        ┌─────────────────────┐
+        │   Windows Endpoint  │
+        │     Winlogbeat      │
+        └──────────┬──────────┘
+                   │
+                   │ Security Logs
+                   ▼
+        ┌─────────────────────┐
+        │      LOGSTASH       │
+        │ Collection & Parsing│
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │    ELASTICSEARCH    │
+        │   Log Storage &     │
+        │       Search        │
+        └──────────┬──────────┘
+                   │
+                   ▼
+        ┌─────────────────────┐
+        │       KIBANA        │
+        │ Dashboards & Alerts │
+        └─────────────────────┘
+                   ▲
+                   │
+        ┌──────────┴──────────┐
+        │    Linux Endpoint   │
+        │      Filebeat       │
+        └─────────────────────┘
+
+LOG FLOW:
+Windows/Linux → Beats → Logstash → Elasticsearch → Kibana
+
+SECURITY USE CASES:
+1. Windows Failed Login Detection (Event ID 4625)
+2. Suspicious Successful Login
+3. Linux SSH Login Monitoring
+4. File Integrity Monitoring
+5. Abnormal Activity Detection

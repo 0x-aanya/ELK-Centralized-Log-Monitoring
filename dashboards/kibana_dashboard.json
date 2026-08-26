@@ -1,0 +1,16 @@
+{
+  "dashboard_name": "Security Monitoring Dashboard",
+  "visualizations": [
+    "Login Attempts",
+    "Failed Authentication Events",
+    "Top Source IP Addresses",
+    "Error Events",
+    "SSH Login Attempts",
+    "File Integrity Events"
+  ],
+  "alerts": [
+    "Multiple Failed Login Attempts",
+    "Unauthorized Access Pattern",
+    "Abnormal System Activity"
+  ]
+}

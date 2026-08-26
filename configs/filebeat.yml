@@ -1,0 +1,10 @@
+filebeat.inputs:
+  - type: filestream
+    id: linux-security-logs
+    enabled: true
+    paths:
+      - /var/log/auth.log
+      - /var/log/syslog
+
+output.logstash:
+  hosts: ["ELK_SERVER_IP:5044"]
